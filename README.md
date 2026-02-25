@@ -400,16 +400,11 @@ Un EMPLOYE valide 0,n RESERVATION
 
 Une RESERVATION est validée par 0,1 EMPLOYE
 
-🔹 ÉTAPE 3 — Résumé des cardinalités importantes
-Relation	Type
-HOTEL — CHAMBRE	1,n
-HOTEL — EMPLOYE	1,n
-CLIENT — RESERVATION	1,n
-CHAMBRE — RESERVATION	1,n
-RESERVATION — SEJOUR	1,1 optionnelle côté réservation
-SEJOUR — FACTURE	1,1
-FACTURE — PAIEMENT	1,n
-SEJOUR — SERVICE	n,n
 <img width="1594" height="1054" alt="image" src="https://github.com/user-attachments/assets/81593006-b7ec-41d4-b165-4297de3faba6" />
 
- 
+
+Voici donc l'ensemble des échanges avec l'IAG que nous avons réalisé. 
+Veuillez trouver ci-dessous une capture d'écran de notre MCD réalisé sur looping en suivant les instructions de l'IAG : 
+
+ <img width="1761" height="1227" alt="image" src="https://github.com/user-attachments/assets/cff6a2e8-61f4-411e-a724-d91e908462da" />
+
