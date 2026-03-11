@@ -406,5 +406,6 @@ Une RESERVATION est validée par 0,1 EMPLOYE
 Voici donc l'ensemble des échanges avec l'IAG que nous avons réalisé. 
 Veuillez trouver ci-dessous une capture d'écran de notre MCD réalisé sur looping en suivant les instructions de l'IAG : 
 
- <img width="1761" height="1227" alt="image" src="https://github.com/user-attachments/assets/cff6a2e8-61f4-411e-a724-d91e908462da" />
+ <img width="1911" height="1444" alt="image" src="https://github.com/user-attachments/assets/3833ba9d-9e19-4803-aa47-930065198a53" />
+
 
