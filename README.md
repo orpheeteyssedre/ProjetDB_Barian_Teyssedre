@@ -413,5 +413,7 @@ Notre MLD obtenue directement via looping.
 <img width="1977" height="1400" alt="2026-03-16_22-52-27" src="https://github.com/user-attachments/assets/ec069267-6cd0-423a-9b29-898f646e19b1" />
 
 
+Notre scénario : 
 
+Ce projet modélise le fonctionnement d’un système de gestion d’hôtel. La base de données permet d’enregistrer les informations sur les hôtels, les chambres et les employés, ainsi que les clients et leurs éventuelles adhésions à des programmes de fidélité. Les clients peuvent effectuer des réservations pour des chambres, qui donnent lieu à des séjours réels lors de leur arrivée. Pendant leur séjour, ils peuvent consommer différents services proposés par l’hôtel (spa, petit-déjeuner, parking, etc.). Toutes les consommations sont associées au séjour et sont ensuite regroupées dans une facture, qui peut être réglée via différents modes de paiement. Ce système permet ainsi de suivre l’ensemble du cycle client, depuis la réservation jusqu’au paiement final.
 
