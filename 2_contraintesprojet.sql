@@ -1,0 +1,25 @@
+USE projetti404;
+
+ALTER TABLE HOTEL
+ADD CONSTRAINT chk_etoiles
+CHECK (categorie_etoiles BETWEEN 1 AND 5);
+
+ALTER TABLE CHAMBRE
+ADD CONSTRAINT chk_capacite
+CHECK (capacite > 0);
+
+ALTER TABLE SERVICE
+ADD CONSTRAINT chk_tarif
+CHECK (tarif >= 0);
+
+ALTER TABLE PAIEMENT
+ADD CONSTRAINT chk_montant
+CHECK (montant > 0);
+
+ALTER TABLE CLIENT
+ADD CONSTRAINT unique_email
+UNIQUE(email);
+
+ALTER TABLE ADHESION_FIDELITE
+ADD CONSTRAINT chk_points
+CHECK(points_client >= 0);
